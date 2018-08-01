@@ -46,6 +46,7 @@ class App extends Component {
 
     return (
       <div className="App">
+        <h1>Guess The Countries Flag</h1>
         <h1>{this.state.message}</h1>
         <div>{views}</div>
         {flag}
